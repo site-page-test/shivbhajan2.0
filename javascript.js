@@ -28,13 +28,13 @@ function myfunction(){
         audioElement.play();
         console.log('play listener is working');
         masterPlay.removeAttribute('src');
-        masterPlay.src="/icons/circle-pause-solid.svg";
+        masterPlay.src="icons/circle-pause-solid.svg";
     }
     else{
         audioElement.pause();
         console.log('pause listener is working');
         masterPlay.removeAttribute('src');
-        masterPlay.src="/icons/circle-play-solid.svg"; 
+        masterPlay.src="icons/circle-play-solid.svg"; 
     }
 }
 audioElement.addEventListener('timeupdate',()=>{
@@ -58,10 +58,10 @@ myprogressbar.addEventListener('change',()=>{
 audioElement.addEventListener('waiting',function(){
 
     masterPlay.removeAttribute('src');
-    masterPlay.src="/loaders/darkpurple.svg";
+    masterPlay.src="loaders/darkpurple.svg";
     audioElement.onplaying=function(){
         masterPlay.removeAttribute('src');
-        masterPlay.src="/icons/circle-pause-solid.svg";}
+        masterPlay.src="icons/circle-pause-solid.svg";}
    
 })
 
@@ -70,13 +70,13 @@ audioElement.addEventListener('waiting',function(){
 
 //Images event listners to play there specific audio
 document.getElementById('0').addEventListener('click',function(){
-    audioElement.src='/songs/_Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3';
+    audioElement.src='songs/_Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
+    masterPlay.src="icons/circle-pause-solid.svg";
     
-    document.getElementById('changeimage').src="/img/jaikal mahakal.jpg";
+    document.getElementById('changeimage').src="img/jaikal mahakal.jpg";
     changeimgop.style.opacity="1";
     
     
@@ -89,12 +89,12 @@ document.getElementById('0').addEventListener('click',function(){
     
 })
 document.getElementById('1').addEventListener('click',function(){
-    audioElement.src='/songs/Bhole_Hath_Sab_Tere_Full_Official_(getmp3.pro).mp3';
+    audioElement.src='songs/Bhole_Hath_Sab_Tere_Full_Official_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/bholehathsabtere.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/bholehathsabtere.jpg";
     changeimgop.style.opacity="1";
     
     songname.innerHTML="Song-Bhole hath sab tere";
@@ -103,12 +103,12 @@ document.getElementById('1').addEventListener('click',function(){
     artistname.innerHTML="by-  A-Jay M"
 })
 document.getElementById('2').addEventListener('click',function(){
-    audioElement.src='/songs/Bhole_Baba_Pahadon_Ke_Raja_A-Jay_(getmp3.pro).mp3';
+    audioElement.src='songs/Bhole_Baba_Pahadon_Ke_Raja_A-Jay_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/bholebabapahadokeraja.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/bholebabapahadokeraja.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Bhole Baba Pahado ke Raja";
@@ -117,12 +117,12 @@ document.getElementById('2').addEventListener('click',function(){
     artistname.innerHTML="by-  A-Jay M"
 })
 document.getElementById('3').addEventListener('click',function(){
-    audioElement.src='/songs/BHALA_Kya_Wo_Karega_Leke_Chadhawa_(getmp3.pro).mp3';
+    audioElement.src='songs/BHALA_Kya_Wo_Karega_Leke_Chadhawa_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/bhala.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/bhala.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Bhala";
@@ -131,12 +131,12 @@ document.getElementById('3').addEventListener('click',function(){
     artistname.innerHTML="by- Vinay Ktoch"
 })
 document.getElementById('4').addEventListener('click',function(){
-    audioElement.src='/songs/Bhola_Ji_-_Joshi_R_(getmp3.pro).mp3';
+    audioElement.src='songs/Bhola_Ji_-_Joshi_R_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/bhola ji.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/bhola ji.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Bhola Ji";
@@ -145,12 +145,12 @@ document.getElementById('4').addEventListener('click',function(){
     artistname.innerHTML="by- Joshi Ravv"
 })
 document.getElementById('5').addEventListener('click',function(){
-    audioElement.src='/songs/Ron_Likhari_-_Bhola_Baba_Crush_Wa_(getmp3.pro).mp3';
+    audioElement.src='songs/Ron_Likhari_-_Bhola_Baba_Crush_Wa_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/bholebaba-ron likhari.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/bholebaba-ron likhari.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Bhole Baba";
@@ -159,12 +159,12 @@ document.getElementById('5').addEventListener('click',function(){
     artistname.innerHTML="by- Ron Likhari"
 })
 document.getElementById('6').addEventListener('click',function(){
-    audioElement.src='/songs/Hey_Shivaya_Shankaraya_Hey_Mahesh_(getmp3.pro).mp3';
+    audioElement.src='songs/Hey_Shivaya_Shankaraya_Hey_Mahesh_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/hey shivaya.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/hey shivaya.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Hey Shivaya Shankaraya";
@@ -173,12 +173,12 @@ document.getElementById('6').addEventListener('click',function(){
     artistname.innerHTML="by- IshaFoundation"
 })
 document.getElementById('7').addEventListener('click',function(){
-    audioElement.src='/songs/Jharneshwar_Bhole_De_(getmp3.pro).mp3';
+    audioElement.src='songs/Jharneshwar_Bhole_De_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/Jharneswarbhole.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/Jharneswarbhole.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Jharneshwar Bhole";
@@ -187,12 +187,12 @@ document.getElementById('7').addEventListener('click',function(){
     artistname.innerHTML="by- Deepak Parashar"
 })
 document.getElementById('8').addEventListener('click',function(){
-    audioElement.src='/songs/Kedarnath_Official_MV_-_Vinay_Kat_(getmp3.pro).mp3';
+    audioElement.src='songs/Kedarnath_Official_MV_-_Vinay_Kat_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/kedarnath.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/kedarnath.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Kedarnath";
@@ -201,12 +201,12 @@ document.getElementById('8').addEventListener('click',function(){
     artistname.innerHTML="by- Vinay Katoch"
 })
 document.getElementById('9').addEventListener('click',function(){
-    audioElement.src='/songs/Mera_Bhola_Hai_Bhandari_Bhole_Nat_(getmp3.pro).mp3';
+    audioElement.src='songs/Mera_Bhola_Hai_Bhandari_Bhole_Nat_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/merabholahaibhandari.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/merabholahaibhandari.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Mera Bhola hai Bhandari";
@@ -215,12 +215,12 @@ document.getElementById('9').addEventListener('click',function(){
     artistname.innerHTML="by- Siddharth Mohan"
 })
 document.getElementById('10').addEventListener('click',function(){
-    audioElement.src='/songs/Agam_-_Om_Namah_Shivay_Har_Har_bh_(getmp3.pro).mp3';
+    audioElement.src='songs/Agam_-_Om_Namah_Shivay_Har_Har_bh_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/om namah shivaya.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/om namah shivaya.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Om Namah Shivay";
@@ -229,12 +229,12 @@ document.getElementById('10').addEventListener('click',function(){
     artistname.innerHTML="by- Agam Aggarwal"
 })
 document.getElementById('11').addEventListener('click',function(){
-    audioElement.src='/songs/Agam_-_Shambhu_Nath_Mukesh_Pardes_(getmp3.pro).mp3';
+    audioElement.src='songs/Agam_-_Shambhu_Nath_Mukesh_Pardes_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/shambhu nath-agam aggarwal.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/shambhu nath-agam aggarwal.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Shambhu Nath";
@@ -243,12 +243,12 @@ document.getElementById('11').addEventListener('click',function(){
     artistname.innerHTML="by- Agam Aggarwal"
 })
 document.getElementById('12').addEventListener('click',function(){
-    audioElement.src='/songs/Shiv_Tu_Bhola_Hai_(getmp3.pro).mp3';
+    audioElement.src='songs/Shiv_Tu_Bhola_Hai_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
-    masterPlay.src="/icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="/img/shivtubholahai.jpg";
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/shivtubholahai.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Shiv Tu Bhola Hai";
