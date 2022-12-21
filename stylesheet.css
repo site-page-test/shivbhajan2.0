@@ -196,7 +196,7 @@ h1{
   }
   .bottom {
     position:fixed;
-    height:250px;
+    height:450px;
     background-color: rgb(163, 148, 148); 
     display: flex;
     justify-content:center;
