@@ -290,6 +290,7 @@ margin-top: 0.2%;
   /* !important is needed sometimes */
  ::-webkit-scrollbar {
     width: 12px !important;
+   -webkit-overflow-scrolling: auto
   }
      /* Track */
 ::-webkit-scrollbar-track {
@@ -311,4 +312,5 @@ margin-top: 0.2%;
      background: rgba(146, 0, 255, 0.84) !important;
  }
 
-  
+
+
