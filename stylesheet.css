@@ -219,7 +219,7 @@ input[type="range"]:focus::-moz-range-thumb{
 ::-webkit-scrollbar-track {
   background: rgb(0,0,0);
   border: 4px solid transparent;
-  background-clip: content-box;   // this is important
+  background-clip: content-box;   /*this is important*/
 }
 
 /* Handle */
