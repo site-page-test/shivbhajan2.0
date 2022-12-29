@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @font-face {
     font-family: myFirstFont;
-    src:url('/hindifonts/Parvati/Parvati.ttf');
+    src:url('hindifonts/Parvati/Parvati.ttf');
 }
 @font-face{
     font-family: mysecondfont;
-    src:url('/hindifonts/Mangal Regular/Mangal Regular.ttf')
+    src:url('hindifonts/Mangal Regular/Mangal Regular.ttf')
 }
 *{
     margin:0px;
