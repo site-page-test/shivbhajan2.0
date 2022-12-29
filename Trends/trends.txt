@@ -1,0 +1,18 @@
+as new versions coming of css there are new trends:
+
+curved margins
+web-kits
+custom scrollbar
+https://www.smashingmagazine.com/2021/12/create-custom-range-input-consistent-browsers/
+
+make the web page living not ust an image.
+
+audio visualizer concept
+https://css-tricks.com/making-an-audio-waveform-visualizer-with-vanilla-javascript/
+
+most creative range-slider
+https://codepen.io/jkantner/pen/wvarNEp
+
+
+best range-slider generator and gives clean css code
+https://range-input-css.netlify.app/
