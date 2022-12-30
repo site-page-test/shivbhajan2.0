@@ -473,14 +473,14 @@ margin-top: 0.2%;
       #preloader video{
         position:absolute;
         width: 140px;
-        top: calc(35vh - 75px);
+        top: calc(28vh - 75px);
         left: calc(50vw - 75px);
       }
       #preloader #prepara{
         position:absolute;
         color:aliceblue;
-        top: calc(59vh - 75px);
-        left: calc(21vw - 93px);
+        top: calc(50vh - 75px);
+        left: calc(41vw - 93px);
         font-family:myseconfont;
         font-size:22px;
         text-align: center;
