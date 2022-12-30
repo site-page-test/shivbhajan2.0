@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShivBhajan</title>
+    <link rel="icon" href="favicon/edited.png">
+    <link rel="stylesheet" href="stylesheet.css">
+   
+</head>
+<body>
+<!--PREFLOADER START-->
+    <div id="preloader" class="preloader">
+        <video src="/preloader/edit1.mp4" autoplay height="100px" loop>preloader failed</video>
+         <p id=prepara>हमारी वेबसाइट शिवभक्ति गीत में आपका स्वागत है</p>
+    </div>
+ 
+ <script type="text/javascript">
+       
+       /* window.addEventListener('load',function(){
+        loader.style.display="none";})
+    */
+   function timer(){
+    var loader=document.getElementById("preloader");
+    loader.style.display="none";;
+   }
+   setTimeout(timer,5000);
+        </script>
+    
+
+    <!--PREFLOADER END-->
+    
+<h1>शिव भजन</h1>
+<div class="heading1">
+    <p class="playlist">गानो की सूची</p>
+    <br></div>
+    <div class= "image-area">
+        <img id="changeimage" src="img/bhala.jpg" width="5%">
+    </div>
+    <div class="song-details">
+        <span id="name"  class="name" >Details of song</span>
+        <span id="artist" class="artist">Artist name</span>
+    </div>
+<div class="container">
+ <img id="0" src="img/jaikal mahakal.jpg" alt="">
+ <img id="1" src="img/bholehathsabtere.jpg" alt="">
+ <img id="2" src="img/bholebabapahadokeraja.jpg" alt="">
+ <img id="3" src="img/bhala.jpg" alt="">
+ <img id="4" src="img/bhola ji.jpg" alt="">
+ <img id="5" src="img/bholebaba-ron likhari.jpg" alt="">
+ <img id="6" src="img/hey shivaya.jpg" alt="">
+ <img id="7" src="img/Jharneswarbhole.jpg" >
+ <img id="8" src="img/kedarnath.jpg" alt="">
+ <img id="9" src="img/merabholahaibhandari.jpg">
+ <img id="10" src="img/om namah shivaya.jpg" alt="">
+ <img id="11" src="img/shambhu nath-agam aggarwal.jpg" alt="">
+ <img id="12" src="img/shivtubholahai.jpg" alt="">
+
+
+</div>
+
+<div class="song-timer">
+    <span  class="current-time">0:00</span>
+    <span class="justadash">-</span>
+    <span class="max-duration">0:00</span>
+  </div>
+</div>
+
+    <canvas id="canvas"></canvas>
+  
+    
+<!--bottom tag with flex -->
+    <div class="bottom">
+        <div class="progress-area">
+            <input type="range" name="range" id="myprogressbar"  value="0%" min="0" max="100" step="0.1">
+        </div>
+        
+        <div>
+            <p id='p1magic' style="opacity:0;z-index:0;">Flexbox space fill</p> 
+        </div>
+     
+        <!--icons tag with flex-->
+        <div class="icons">
+            
+    <div class="row">
+        
+        <div class="column">
+             <img id="prev" src="icons/backward-step-solid.svg" alt="">
+        </div>
+        <div class="column">
+             <img src="icons/circle-play-solid.svg" id="masterPlay" alt="">
+        </div>
+        <div class="column">
+             <img  id="next" src="icons/forward-step-solid.svg" alt="">
+        </div>
+        <div class="column">
+             <img  src="icons/repeat-solid.svg" alt="">
+          </div>
+          <div class="column">
+             <img  src="icons/circle-down-solid.svg" alt="">
+          </div>
+      </div>
+     
+      </div>
+      </div>
+      
+      
+      <script defer src="javascript.js"></script>
+      <srcipt defer src="Trends/Audio Visualizer.js"></srcipt>
+</body>
+</html>
