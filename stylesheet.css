@@ -365,7 +365,7 @@ canvas {
   }
   .bottom {
     position:fixed;
-    height:140px;
+    height:240px;
     background-color: rgba(146, 0, 255, 0.48); 
     display: flex;
     justify-content:center;
@@ -403,15 +403,15 @@ margin-top: 0.2%;
     width:100vw;
       cursor: pointer;
       border-radius: 0%;
-      margin: 0%;
+      margin-bottom:5%;
     }
       .image-area img{
         position:fixed;
-          height:11%;
-          width: 20%;
+          height:9%;
+          width: 28%;
           bottom:12.2%;
           z-index:100 ;
-          margin-left: 8%;
+          margin-left: 4%;
           opacity:0;
       }
 
