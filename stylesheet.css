@@ -404,6 +404,7 @@ margin-top: 0.2%;
       cursor: pointer;
       border-radius: 0%;
       margin-bottom:5%;
+      margin:0%;
     }
       .image-area img{
         position:fixed;
@@ -411,7 +412,7 @@ margin-top: 0.2%;
           width: 28%;
           bottom:12.2%;
           z-index:100 ;
-          margin-left: 4%;
+          margin-left: 2%;
           opacity:0;
       }
 
@@ -452,11 +453,11 @@ margin-top: 0.2%;
       }
       #p1magic{
         margin-bottom:41%;
-        height:0%;
+        height:15%;
       }
       canvas {
         width: 100%;
-        height: 140px;
+        height: 240px;
         background: #282831;
         position: fixed;
         bottom: 0px;
