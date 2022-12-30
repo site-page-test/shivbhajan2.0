@@ -404,7 +404,7 @@ margin-top: 0.2%;
       cursor: pointer;
       border-radius: 0%;
       margin:0%;
-      margin-bottom:15%;
+      margin-bottom:13%;
     }
       .image-area img{
         position:fixed;
@@ -453,7 +453,7 @@ margin-top: 0.2%;
       }
       #p1magic{
         margin-bottom:41%;
-        height:40%;
+        height:37%;
       }
       canvas {
         width: 100%;
@@ -481,7 +481,7 @@ margin-top: 0.2%;
         position:absolute;
         color:aliceblue;
         top: calc(50vh - 75px);
-        left: calc(28vw - 93px);
+        left: calc(27.3vw - 93px);
         font-family:myseconfont;
         font-size:22px;
         text-align: center;
