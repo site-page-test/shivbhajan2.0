@@ -403,8 +403,8 @@ margin-top: 0.2%;
     width:100vw;
       cursor: pointer;
       border-radius: 0%;
-      margin-bottom:5%;
       margin:0%;
+      margin-bottom:15%;
     }
       .image-area img{
         position:fixed;
@@ -481,7 +481,7 @@ margin-top: 0.2%;
         position:absolute;
         color:aliceblue;
         top: calc(50vh - 75px);
-        left: calc(30vw - 93px);
+        left: calc(28vw - 93px);
         font-family:myseconfont;
         font-size:22px;
         text-align: center;
