@@ -94,6 +94,11 @@ border-width:thick;
 word-spacing:2pxpx;
 padding:1%;
 }
+maruee{
+  background-color: black;
+  color:white;
+  font-family:mysecondfont;
+}
 .playlist{
     margin-top: 6%;
     font-size: 200%;
