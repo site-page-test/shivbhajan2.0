@@ -72,7 +72,7 @@ audioElement.addEventListener('waiting',function(){
 
 //Images event listners to play there specific audio
 document.getElementById('0').addEventListener('click',function(){
-    audioElement.src= "songs/_Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3";
+    audioElement.src= "/songs/_Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3";
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
