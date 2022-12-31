@@ -98,7 +98,7 @@ marquee{
   background-color: black;
   color:white;
   font-family:mysecondfont;
-   margin-top: 1%;
+  margin-top: 0.35%;
 }
 .playlist{
     margin-top: 6%;
@@ -492,6 +492,10 @@ margin-top: 0.2%;
         font-size:22px;
         text-align: center;
       }
+  marquee{
+ 
+  margin-top:1%;
+}
     }
   
     
