@@ -118,7 +118,7 @@ marquee{
 display:flex;
 flex-wrap:wrap;
 background-color: black;
-
+margin-bottom:5%;
 }
 .container img{
     width: 20%;
