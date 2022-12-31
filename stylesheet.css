@@ -324,6 +324,7 @@ canvas {
         letter-spacing:1px;
         word-spacing:2pxpx;
         padding:1%;
+          position:sticky;
         }
        .playlist{
             margin-top: 6%;
