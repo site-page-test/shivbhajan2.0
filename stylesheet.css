@@ -91,7 +91,6 @@ border-radius: 2px;
 border-color: black;
 border-style: solid;
 border-width:thick;
-letter-spacing:1px;
 word-spacing:2pxpx;
 padding:1%;
 }
@@ -321,7 +320,6 @@ canvas {
         border-color: black;
         border-style: solid;
         border-width:thick;
-        letter-spacing:1px;
         word-spacing:2pxpx;
         padding:1%;
           position:sticky;
