@@ -92,6 +92,26 @@ document.getElementById('changeimage').src="img/romrommaibasjabhole.jpg";
     
 })
 
+document.getElementById('new2').addEventListener('click',function(){
+    audioElement.src= 'songs/Shiva_Tandav_Transcreation_l_Ashuto_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+
+document.getElementById('changeimage').src="img/shivtandavsatotram.jpg";
+    changeimgop.style.opacity="1";
+    
+    
+   
+    songname.innerHTML="Song-Shiva Tandav Stotram";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by-Aalok Shrivasta"
+    
+})
+
+
 
 document.getElementById('0').addEventListener('click',function(){
     audioElement.src= 'songs/Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3';
