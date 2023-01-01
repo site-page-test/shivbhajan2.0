@@ -73,7 +73,7 @@ audioElement.addEventListener('waiting',function(){
 //Images event listners to play there specific audio
 
 document.getElementById('new1').addEventListener('click',function(){
-    audioElement.src= 'songs/';
+    audioElement.src= 'songs/Rom_Rom_Me_(getmp3.pro).mp3';
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
