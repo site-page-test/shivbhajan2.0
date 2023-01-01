@@ -71,6 +71,28 @@ audioElement.addEventListener('waiting',function(){
 
 
 //Images event listners to play there specific audio
+
+document.getElementById('new1').addEventListener('click',function(){
+    audioElement.src= 'songs/';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+
+document.getElementById('changeimage').src="img/romrommaibasjabhole.jpg";
+    changeimgop.style.opacity="1";
+    
+    
+   
+    songname.innerHTML="Song-Rom Rom mai bas ja bhole";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by-Gajendra Pratap Singh"
+
+    
+})
+
+
 document.getElementById('0').addEventListener('click',function(){
     audioElement.src= 'songs/Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3';
     audioElement.currentTime=0;
