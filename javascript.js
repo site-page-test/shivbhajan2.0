@@ -94,7 +94,8 @@ document.getElementById('changeimage').src="img/romrommaibasjabhole.jpg";
     artistname.style.opacity='1';
     artistname.innerHTML="by-Gajendra Pratap Singh"
 
-    context.resume();
+    //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 
 document.getElementById('new2').addEventListener('click',function(){
@@ -114,6 +115,8 @@ document.getElementById('changeimage').src="img/shivtandavsatotram.jpg";
     artistname.style.opacity='1';
     artistname.innerHTML="by-Aalok Shrivasta"
     
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 
 
@@ -135,6 +138,8 @@ document.getElementById('0').addEventListener('click',function(){
     artistname.style.opacity='1';
     artistname.innerHTML="by- Amit Trivedi"
 
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
     
 })
 document.getElementById('1').addEventListener('click',function(){
@@ -150,6 +155,9 @@ document.getElementById('1').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by-  A-Jay M"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('2').addEventListener('click',function(){
     audioElement.src='songs/Bhole_Baba_Pahadon_Ke_Raja_A-Jay_(getmp3.pro).mp3';
@@ -164,6 +172,10 @@ document.getElementById('2').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by-  A-Jay M"
+  
+//Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+
 })
 document.getElementById('3').addEventListener('click',function(){
     audioElement.src='songs/BHALA_Kya_Wo_Karega_Leke_Chadhawa_(getmp3.pro).mp3';
@@ -178,6 +190,9 @@ document.getElementById('3').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Vinay Ktoch"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('4').addEventListener('click',function(){
     audioElement.src='songs/Bhola_Ji_-_Joshi_R_(getmp3.pro).mp3';
@@ -192,6 +207,10 @@ document.getElementById('4').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Joshi Ravv"
+  
+//Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+
 })
 document.getElementById('5').addEventListener('click',function(){
     audioElement.src='songs/Ron_Likhari_-_Bhola_Baba_Crush_Wa_(getmp3.pro).mp3';
@@ -206,6 +225,9 @@ document.getElementById('5').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Ron Likhari"
+ 
+ //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('6').addEventListener('click',function(){
     audioElement.src='songs/Hey_Shivaya_Shankaraya_Hey_Mahesh_(getmp3.pro).mp3';
@@ -220,6 +242,9 @@ document.getElementById('6').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- IshaFoundation"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('7').addEventListener('click',function(){
     audioElement.src='songs/Jharneshwar_Bhole_De_(getmp3.pro).mp3';
@@ -234,6 +259,9 @@ document.getElementById('7').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Deepak Parashar"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('8').addEventListener('click',function(){
     audioElement.src='songs/Kedarnath_Official_MV_-_Vinay_Kat_(getmp3.pro).mp3';
@@ -248,6 +276,9 @@ document.getElementById('8').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Vinay Katoch"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('9').addEventListener('click',function(){
     audioElement.src='songs/Mera_Bhola_Hai_Bhandari_Bhole_Nat_(getmp3.pro).mp3';
@@ -262,6 +293,9 @@ document.getElementById('9').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Siddharth Mohan"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('10').addEventListener('click',function(){
     audioElement.src='songs/Agam_-_Om_Namah_Shivay_Har_Har_bh_(getmp3.pro).mp3';
@@ -276,6 +310,9 @@ document.getElementById('10').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Agam Aggarwal"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('11').addEventListener('click',function(){
     audioElement.src='songs/Agam_-_Shambhu_Nath_Mukesh_Pardes_(getmp3.pro).mp3';
@@ -290,6 +327,9 @@ document.getElementById('11').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Agam Aggarwal"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 document.getElementById('12').addEventListener('click',function(){
     audioElement.src='songs/Shiv_Tu_Bhola_Hai_(getmp3.pro).mp3';
@@ -304,6 +344,9 @@ document.getElementById('12').addEventListener('click',function(){
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- A-Jay M & S.Gosswami"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
 })
 
 /*audio visualiser jugad*/
