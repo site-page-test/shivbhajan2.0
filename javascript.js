@@ -89,7 +89,7 @@ document.getElementById('changeimage').src="img/romrommaibasjabhole.jpg";
     artistname.style.opacity='1';
     artistname.innerHTML="by-Gajendra Pratap Singh"
 
-    
+    audioContext.resume();
 })
 
 document.getElementById('new2').addEventListener('click',function(){
