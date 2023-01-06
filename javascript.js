@@ -3,6 +3,11 @@ console.log("welcome to shivbhaktigeet 2.0");
 
 
 let audioElement=new Audio();
+//Three lines copy paste from Audio visualisation
+Let context = new AudioContext();
+    Let src = context.createMediaElementSource(audioElement);
+    Let analyser = context.createAnalyser();
+
 let masterPlay=document.getElementById('masterPlay');
 let myprogressbar=document.getElementById('myprogressbar');
 myprogressbar.value=0;
@@ -307,10 +312,7 @@ window.onload = function(){
     var file = this.audioElement;
     audioElement.load();
     
-    var context = new AudioContext();
-    var src = context.createMediaElementSource(audioElement);
-    var analyser = context.createAnalyser();
-
+    
     var canvas = document.getElementById("canvas");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
