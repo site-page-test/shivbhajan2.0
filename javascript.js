@@ -361,4 +361,11 @@ window.onload = function(){
     renderFrame();
 }                                       
 
-   
+   const test = () => {
+    window.AudioContext = window.AudioContext || window.webkitAudioContext;
+    audioContext = new AudioContext();
+    console.log(audioContext.state); //suspended
+    audioContext.resume();
+    audioContext.onstatechange = () => console.log(audioContext.state); // running
+}
+
