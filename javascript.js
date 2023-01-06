@@ -4,9 +4,9 @@ console.log("welcome to shivbhaktigeet 2.0");
 
 let audioElement=new Audio();
 //Three lines copy paste from Audio visualisation
-Let context = new AudioContext();
-    Let src = context.createMediaElementSource(audioElement);
-    Let analyser = context.createAnalyser();
+let context = new AudioContext();
+    let src = context.createMediaElementSource(audioElement);
+    let analyser = context.createAnalyser();
 
 let masterPlay=document.getElementById('masterPlay');
 let myprogressbar=document.getElementById('myprogressbar');
