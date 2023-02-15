@@ -313,6 +313,10 @@ canvas {
   
 }
 
+new2{
+  width: 20%;
+    height: 18%;
+}
 
 @media(max-width:600px){
   h1{
