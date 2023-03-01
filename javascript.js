@@ -439,7 +439,7 @@ document.getElementById('18').addEventListener('click',function(){
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="devbhoomi.jpg";
+    document.getElementById('changeimage').src="img/devbhoomi.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Devbhoomi geet";
