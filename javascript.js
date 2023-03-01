@@ -510,7 +510,7 @@ document.getElementById('22').addEventListener('click',function(){
     document.getElementById('changeimage').src="img/parvati boli shankar se.jpg";
     changeimgop.style.opacity="1";
 
-    songname.innerHTML="Song-Parvati Boli Shankar Se
+    songname.innerHTML="Song-Parvati Boli Shankar Se"
     songname.style.opacity='1';
     artistname.style.opacity='1';
     artistname.innerHTML="by- Hansraj Raghuwanshi"
