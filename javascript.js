@@ -456,7 +456,7 @@ document.getElementById('19').addEventListener('click',function(){
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
-    document.getElementById('changeimage').src="jai kara.jpg";
+    document.getElementById('changeimage').src="img/jai kara.jpg";
     changeimgop.style.opacity="1";
 
     songname.innerHTML="Song-Jai kara";
