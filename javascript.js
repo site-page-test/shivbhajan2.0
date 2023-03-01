@@ -348,6 +348,278 @@ document.getElementById('12').addEventListener('click',function(){
   //Audio context has to be resumed for safari and chrome manually 
      context.resume();
 })
+document.getElementById('13').addEventListener('click',function(){
+    audioElement.src='songs/Agam_-_Mere_Bhole_Shiv_Bhajan_M_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/mere bhole.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Mere Bhole";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Agam Aggarwal"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('14').addEventListener('click',function(){
+    audioElement.src='songs/Bhola_Mera_Damru_Baja_Ke_Chala_Fu_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/bhola mera damru baja ke chala.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Bhola mera damru baja ke chala";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- A-Jay M"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('15').addEventListener('click',function(){
+    audioElement.src='songs/BHOLA_SABKO_DETA_HAI__(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/bhola sabko deta hai.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Bhola Sabko Deta Hai";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Mohit L ,Abhlipsa P,Bharat K,Ravi C"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('16').addEventListener('click',function(){
+    audioElement.src='songs/Bholenath_ji_Hashtag_pandit_Abh_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/Bholenath ji.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Bholenath Ji";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Abhilipsa Panda,Hastag Pandit"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('17').addEventListener('click',function(){
+    audioElement.src='songs/Chanda_Jhaanke_-_Official_Video_H_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/chanda jhake.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Chaanda Jhaanke";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Hansraj Raghuwanshi ,Salim Sulaiman,Shradha"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('18').addEventListener('click',function(){
+    audioElement.src='songs/Devbhoomi_Main_Tumko_Shish_Navata_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="devbhoomi.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Devbhoomi geet";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Jubin Nautiyal , PM Narendra Modi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('19').addEventListener('click',function(){
+    audioElement.src='songs/Jai_Kara_Kedara-_Official_4K_Video_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="jai kara.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Jai kara";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by-Hansraj Raghuwanshi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('20').addEventListener('click',function(){
+    audioElement.src='songs/Main_Shiv_Ka_Shiv_Mere_Lyrical_Vid_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/main shiv ka.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Main shiv ka";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Hansraj Raghuwanshi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('21').addEventListener('click',function(){
+    audioElement.src='songs/Mera_Bhola_Hai_Bhandari_Full_Song__(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/mera bhola hai bhandari.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Mera Bhola Hai Bhandari"
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Hansraj Raghuwanshi, Suresh Verma,Paramjeet Pammi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('22').addEventListener('click',function(){
+    audioElement.src='songs/Parvati_Boli_Shankar_Se_-_O_Bholena_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/parvati boli shankar se.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Parvati Boli Shankar Se
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Hansraj Raghuwanshi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('23').addEventListener('click',function(){
+    audioElement.src='songs/Sarwasva_Shiv_-_The_Legends_of_Bhol_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/Sarwasva Shiv.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Sarwasva Shiv";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Agam Aggarwal"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('24').addEventListener('click',function(){
+    audioElement.src='songs/Shambu_Mere_Sang_Full_Video_Hansr_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/shambhu mere sang rhena.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Shambhu Mere Sang Rhena";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Hansraj Raghuwanshi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('25').addEventListener('click',function(){
+    audioElement.src='songs/Shiv_Hain_Na_-Song_Mahashivratri_(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/shiv hai na.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Shiv Hai Na";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Vinay katoch Ft Vineet Katoch"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('26').addEventListener('click',function(){
+    audioElement.src='songs/Shiv_Panchakshar_Stotra__(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/shiv panchakshar.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Shiv Panchakshar";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by-  Sachet Tandon| Parampara Tandon | Bhushan Kumar"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('27').addEventListener('click',function(){
+    audioElement.src='songs/Shiv_Shiv_Shankara_official_video__(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/shiv shiv shankara.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Shiv Shiv Shankara";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Hansraj Raghuwanshi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
+document.getElementById('28').addEventListener('click',function(){
+    audioElement.src='songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3';
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterPlay.removeAttribute('src');
+    masterPlay.src="icons/circle-pause-solid.svg";
+    document.getElementById('changeimage').src="img/Bhole Shankar.jpg";
+    changeimgop.style.opacity="1";
+
+    songname.innerHTML="Song-Bhole Shankar";
+    songname.style.opacity='1';
+    artistname.style.opacity='1';
+    artistname.innerHTML="by- Hansraj Raghuwanshi"
+
+  //Audio context has to be resumed for safari and chrome manually 
+     context.resume();
+})
 
 /*audio visualiser jugad*/
 window.onload = function(){
