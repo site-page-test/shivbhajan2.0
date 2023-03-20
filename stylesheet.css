@@ -93,6 +93,7 @@ border-style: solid;
 border-width:thick;
 word-spacing:2pxpx;
 padding:1%;
+  position:sticky;
 z-index:100;
 }
 marquee{
