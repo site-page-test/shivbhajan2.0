@@ -198,6 +198,13 @@ margin-top: 0.2%;
     width: 120%;
         
 }
+@media(min-width:700px){
+.icons{
+width: 17%;
+margin-top: 0.2%;
+}   
+}
+
 .icons img{
     cursor: pointer;
 }
