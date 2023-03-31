@@ -18,6 +18,12 @@ let artistname = document.getElementById('artist');
 let currenttime=document.getElementsByClassName('current-time');
 let maxtime=document.getElementsByClassName('max-duration');
 let dash=document.getElementsByClassName('justadash');
+
+//anchor tag of download button
+let dblink=document.getElementById('dbanchor');
+//download button used for aknowledgement for user
+let downloadbutton=document.getElementById("downloadbutton");
+
 //eventhandler
 //handle play/pause click
 /*document.getElementById("main_btn")
@@ -85,10 +91,13 @@ document.getElementById('new1').addEventListener('click',function(){
     masterPlay.src="icons/circle-pause-solid.svg";
 
 document.getElementById('changeimage').src="img/romrommaibasjabhole.jpg";
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    ///setting the download icon to normal if user clicks this song after any other song
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     changeimgop.style.opacity="1";
-    
-    
-   
     songname.innerHTML="Song-Rom Rom mai bas ja bhole";
     songname.style.opacity='1';
     artistname.style.opacity='1';
@@ -100,6 +109,12 @@ document.getElementById('changeimage').src="img/romrommaibasjabhole.jpg";
 
 document.getElementById('new2').addEventListener('click',function(){
     audioElement.src= 'songs/Shiva_Tandav_Transcreation_l_Ashuto_(getmp3.pro).mp3';
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -123,6 +138,12 @@ document.getElementById('changeimage').src="img/shivtandavsatotram.jpg";
 
 document.getElementById('0').addEventListener('click',function(){
     audioElement.src= 'songs/Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3';
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -144,6 +165,13 @@ document.getElementById('0').addEventListener('click',function(){
 })
 document.getElementById('1').addEventListener('click',function(){
     audioElement.src= 'songs/Bhole_Hath_Sab_Tere_Full_Official_(getmp3.pro).mp3';
+   
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -161,6 +189,12 @@ document.getElementById('1').addEventListener('click',function(){
 })
 document.getElementById('2').addEventListener('click',function(){
     audioElement.src='songs/Bhole_Baba_Pahadon_Ke_Raja_A-Jay_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -179,6 +213,12 @@ document.getElementById('2').addEventListener('click',function(){
 })
 document.getElementById('3').addEventListener('click',function(){
     audioElement.src='songs/BHALA_Kya_Wo_Karega_Leke_Chadhawa_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -196,6 +236,12 @@ document.getElementById('3').addEventListener('click',function(){
 })
 document.getElementById('4').addEventListener('click',function(){
     audioElement.src='songs/Bhola_Ji_-_Joshi_R_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -214,6 +260,12 @@ document.getElementById('4').addEventListener('click',function(){
 })
 document.getElementById('5').addEventListener('click',function(){
     audioElement.src='songs/Ron_Likhari_-_Bhola_Baba_Crush_Wa_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -231,6 +283,12 @@ document.getElementById('5').addEventListener('click',function(){
 })
 document.getElementById('6').addEventListener('click',function(){
     audioElement.src='songs/Hey_Shivaya_Shankaraya_Hey_Mahesh_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -248,6 +306,12 @@ document.getElementById('6').addEventListener('click',function(){
 })
 document.getElementById('7').addEventListener('click',function(){
     audioElement.src='songs/Jharneshwar_Bhole_De_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -265,7 +329,13 @@ document.getElementById('7').addEventListener('click',function(){
 })
 document.getElementById('8').addEventListener('click',function(){
     audioElement.src='songs/Kedarnath_Official_MV_-_Vinay_Kat_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+   
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+      audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -282,7 +352,13 @@ document.getElementById('8').addEventListener('click',function(){
 })
 document.getElementById('9').addEventListener('click',function(){
     audioElement.src='songs/Mera_Bhola_Hai_Bhandari_Bhole_Nat_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -299,7 +375,13 @@ document.getElementById('9').addEventListener('click',function(){
 })
 document.getElementById('10').addEventListener('click',function(){
     audioElement.src='songs/Agam_-_Om_Namah_Shivay_Har_Har_bh_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -316,7 +398,13 @@ document.getElementById('10').addEventListener('click',function(){
 })
 document.getElementById('11').addEventListener('click',function(){
     audioElement.src='songs/Agam_-_Shambhu_Nath_Mukesh_Pardes_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -333,7 +421,13 @@ document.getElementById('11').addEventListener('click',function(){
 })
 document.getElementById('12').addEventListener('click',function(){
     audioElement.src='songs/Shiv_Tu_Bhola_Hai_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -350,6 +444,12 @@ document.getElementById('12').addEventListener('click',function(){
 })
 document.getElementById('13').addEventListener('click',function(){
     audioElement.src='songs/Agam_-_Mere_Bhole_Shiv_Bhajan_M_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -367,6 +467,12 @@ document.getElementById('13').addEventListener('click',function(){
 })
 document.getElementById('14').addEventListener('click',function(){
     audioElement.src='songs/Bhola_Mera_Damru_Baja_Ke_Chala_Fu_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -384,6 +490,12 @@ document.getElementById('14').addEventListener('click',function(){
 })
 document.getElementById('15').addEventListener('click',function(){
     audioElement.src='songs/BHOLA_SABKO_DETA_HAI__(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -401,6 +513,12 @@ document.getElementById('15').addEventListener('click',function(){
 })
 document.getElementById('16').addEventListener('click',function(){
     audioElement.src='songs/Bholenath_ji_Hashtag_pandit_Abh_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -418,7 +536,13 @@ document.getElementById('16').addEventListener('click',function(){
 })
 document.getElementById('17').addEventListener('click',function(){
     audioElement.src='songs/Chanda_Jhaanke_-_Official_Video_H_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -435,6 +559,12 @@ document.getElementById('17').addEventListener('click',function(){
 })
 document.getElementById('18').addEventListener('click',function(){
     audioElement.src='songs/Devbhoomi_Main_Tumko_Shish_Navata_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -452,6 +582,12 @@ document.getElementById('18').addEventListener('click',function(){
 })
 document.getElementById('19').addEventListener('click',function(){
     audioElement.src='songs/Jai_Kara_Kedara-_Official_4K_Video_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -469,7 +605,13 @@ document.getElementById('19').addEventListener('click',function(){
 })
 document.getElementById('20').addEventListener('click',function(){
     audioElement.src='songs/Main_Shiv_Ka_Shiv_Mere_Lyrical_Vid_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -486,6 +628,12 @@ document.getElementById('20').addEventListener('click',function(){
 })
 document.getElementById('21').addEventListener('click',function(){
     audioElement.src='songs/Mera_Bhola_Hai_Bhandari_Full_Song__(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -503,7 +651,13 @@ document.getElementById('21').addEventListener('click',function(){
 })
 document.getElementById('22').addEventListener('click',function(){
     audioElement.src='songs/Parvati_Boli_Shankar_Se_-_O_Bholena_(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -520,6 +674,12 @@ document.getElementById('22').addEventListener('click',function(){
 })
 document.getElementById('23').addEventListener('click',function(){
     audioElement.src='songs/Sarwasva_Shiv_-_The_Legends_of_Bhol_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -537,6 +697,12 @@ document.getElementById('23').addEventListener('click',function(){
 })
 document.getElementById('24').addEventListener('click',function(){
     audioElement.src='songs/Shambu_Mere_Sang_Full_Video_Hansr_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -554,6 +720,12 @@ document.getElementById('24').addEventListener('click',function(){
 })
 document.getElementById('25').addEventListener('click',function(){
     audioElement.src='songs/Shiv_Hain_Na_-Song_Mahashivratri_(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -571,7 +743,13 @@ document.getElementById('25').addEventListener('click',function(){
 })
 document.getElementById('26').addEventListener('click',function(){
     audioElement.src='songs/Shiv_Panchakshar_Stotra__(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+    
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -588,6 +766,12 @@ document.getElementById('26').addEventListener('click',function(){
 })
 document.getElementById('27').addEventListener('click',function(){
     audioElement.src='songs/Shiv_Shiv_Shankara_official_video__(getmp3.pro).mp3';
+     
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
     audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
@@ -605,7 +789,13 @@ document.getElementById('27').addEventListener('click',function(){
 })
 document.getElementById('28').addEventListener('click',function(){
     audioElement.src='songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3';
-    audioElement.currentTime=0;
+   
+    //actual download button functionality
+    dblink.href=audioElement.src;
+    //re-setting download icon
+    downloadbutton.src="/icons/circle-down-solid.svg";
+    
+      audioElement.currentTime=0;
     audioElement.play();
     masterPlay.removeAttribute('src');
     masterPlay.src="icons/circle-pause-solid.svg";
@@ -685,4 +875,16 @@ window.onload = function(){
     audioContext.resume();
     audioContext.onstatechange = () => console.log(audioContext.state); // running
 }
+
+//download acknowledgement for user
+downloadbutton.addEventListener('click',function(){
+    downloadbutton.src="/icons/circle-check-regular.svg"
+  
+    
+   function timer2(){
+    
+    downloadbutton.src="/icons/circle-down-solid.svg";
+   }
+   setTimeout(timer2,4000);
+})
 
