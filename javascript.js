@@ -95,7 +95,7 @@ document.getElementById('changeimage').src="img/romrommaibasjabhole.jpg";
     //actual download button functionality
     dblink.href=audioElement.src;
     ///setting the download icon to normal if user clicks this song after any other song
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     changeimgop.style.opacity="1";
     songname.innerHTML="Song-Rom Rom mai bas ja bhole";
@@ -113,7 +113,7 @@ document.getElementById('new2').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -142,7 +142,7 @@ document.getElementById('0').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -169,7 +169,7 @@ document.getElementById('1').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     
     audioElement.currentTime=0;
@@ -193,7 +193,7 @@ document.getElementById('2').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -217,7 +217,7 @@ document.getElementById('3').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -240,7 +240,7 @@ document.getElementById('4').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -264,7 +264,7 @@ document.getElementById('5').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -287,7 +287,7 @@ document.getElementById('6').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -310,7 +310,7 @@ document.getElementById('7').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -333,7 +333,7 @@ document.getElementById('8').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
       audioElement.currentTime=0;
     audioElement.play();
@@ -356,7 +356,7 @@ document.getElementById('9').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -379,7 +379,7 @@ document.getElementById('10').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -402,7 +402,7 @@ document.getElementById('11').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -425,7 +425,7 @@ document.getElementById('12').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -448,7 +448,7 @@ document.getElementById('13').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -471,7 +471,7 @@ document.getElementById('14').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -494,7 +494,7 @@ document.getElementById('15').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -517,7 +517,7 @@ document.getElementById('16').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -540,7 +540,7 @@ document.getElementById('17').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -563,7 +563,7 @@ document.getElementById('18').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -586,7 +586,7 @@ document.getElementById('19').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -609,7 +609,7 @@ document.getElementById('20').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -632,7 +632,7 @@ document.getElementById('21').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -655,7 +655,7 @@ document.getElementById('22').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -678,7 +678,7 @@ document.getElementById('23').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -701,7 +701,7 @@ document.getElementById('24').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -724,7 +724,7 @@ document.getElementById('25').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -747,7 +747,7 @@ document.getElementById('26').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
      audioElement.currentTime=0;
     audioElement.play();
@@ -770,7 +770,7 @@ document.getElementById('27').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
     audioElement.currentTime=0;
     audioElement.play();
@@ -793,7 +793,7 @@ document.getElementById('28').addEventListener('click',function(){
     //actual download button functionality
     dblink.href=audioElement.src;
     //re-setting download icon
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
     
       audioElement.currentTime=0;
     audioElement.play();
@@ -878,12 +878,12 @@ window.onload = function(){
 
 //download acknowledgement for user
 downloadbutton.addEventListener('click',function(){
-    downloadbutton.src="/icons/circle-check-regular.svg"
+    downloadbutton.src="icons/circle-check-regular.svg"
   
     
    function timer2(){
     
-    downloadbutton.src="/icons/circle-down-solid.svg";
+    downloadbutton.src="icons/circle-down-solid.svg";
    }
    setTimeout(timer2,4000);
 })
