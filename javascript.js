@@ -885,6 +885,6 @@ downloadbutton.addEventListener('click',function(){
     
     downloadbutton.src="icons/circle-down-solid.svg";
    }
-   setTimeout(timer2,4000);
+   setTimeout(timer2,10000);
 })
 
