@@ -424,11 +424,11 @@ function repeatSongs() {
   if (repeatMode === 0) {
     audioElement.loop = true;
     repeatMode = 1;
-    repeatButton.src = "/icons/icons8-repeat-one-50.png";
+    repeatButton.src = "icons/icons8-repeat-one-50.png";
   } else if(repeatMode==1){
     audioElement.loop = false;
     repeatMode = 2;
-    repeatButton.src = "/icons/icons8-repeat-ALL-2.png";
+    repeatButton.src = "icons/icons8-repeat-ALL-2.png";
   }
   else{
     audioElement.loop = false;
