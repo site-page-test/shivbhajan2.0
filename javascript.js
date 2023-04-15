@@ -469,7 +469,24 @@ audioElement.addEventListener('ended', function() {
   if (repeatMode === 2) {
     currentSongIndex = (currentSongIndex + 1) % songList.length;
     audioElement.src = songList[currentSongIndex];
-    audioElement.play();
+      //actual download button functionality
+   dblink.href=audioElement.src;
+   //re-setting download icon
+   downloadbutton.src="icons/circle-down-solid.svg";
+ 
+  // set the song of name text and visibility
+  artistname.style.opacity='1';
+  artistname.innerHTML=artistName[currentArtistIndex];
+//set the song name and make it visible
+songname.innerHTML=songName[currentSongNameIndex];
+songname.style.opacity='1';
+//set the image in bottom to brcomr vidible with src
+document.getElementById('changeimage').src=imageSrc[currentImageSrcIndex];
+changeimgop.style.opacity="1";
+
+audioElement.play();
+//Audio context has to be resumed for safari and chrome manually 
+context.resume();
   }
 });
 //imageElements is an array of images in the container
