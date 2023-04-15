@@ -917,7 +917,7 @@ function formatTime(seconds) {
 //So we add event listener for that case and disappear the bottom when keyboard resize the window.
 
 
-const musicPlayer = document.getElementById('bottom');
+const musicPlayer = document.getElementsByClassName('bottom');
 
 window.addEventListener('resize', () => {
   if (document.activeElement.tagName === 'input') {
