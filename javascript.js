@@ -936,7 +936,7 @@ window.addEventListener('resize', () => {
 
 
 
-const bottomElement = document.getElementById("bottom");
-bottomElement.style.removeProperty("position");
+
+
 
 
