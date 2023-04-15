@@ -918,19 +918,21 @@ function formatTime(seconds) {
 // add bottom element to DOM when input receives focus
 
 
-const musicPlayer = document.getElementsByClassName('bottom');
+
+
+
+const musicPlayer = document.getElementsByClassName('bottom')[0];
 
 window.addEventListener('resize', () => {
   if (document.activeElement.tagName === 'input') {
     musicPlayer.style.display='none';
-musicPlayer.remove();
+    musicPlayer.remove();
   } else {
-;
-    
-document.body.appendChild(musicPlayer);
-musicPlayer.style.display='block';
+    document.body.appendChild(musicPlayer);
+    musicPlayer.style.display='block';
   }
 });
+
 
 
 
