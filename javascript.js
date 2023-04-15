@@ -926,8 +926,9 @@ window.addEventListener('resize', () => {
 musicPlayer.remove();
   } else {
 ;
-    musicPlayer.style.display='block';
+    
 document.body.appendChild(musicPlayer);
+musicPlayer.style.display='block';
   }
 });
 
