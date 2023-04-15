@@ -925,11 +925,9 @@ const musicPlayer = document.getElementById("bottom");
 
 window.addEventListener('resize', () => {
   if (document.activeElement.tagName === 'input') {
-    musicPlayer.style.display='none';
-    musicPlayer.remove();
+    musicPlayer..style.removeProperty("position")
   } else {
-    document.body.appendChild(musicPlayer);
-    musicPlayer.style.display='block';
+    musicPlayer.style.position='fixed';
   }
 });
 
@@ -938,5 +936,7 @@ window.addEventListener('resize', () => {
 
 
 
+const bottomElement = document.getElementById("bottom");
+bottomElement.style.removeProperty("position");
 
 
