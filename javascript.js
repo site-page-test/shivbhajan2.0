@@ -349,8 +349,14 @@ let currentSongNameIndex=0;
 let currentImageSrcIndex=0;
 // function to play the current song
 function playSong() {
+  
   //set the source of audioElement
   audioElement.src = songList[currentSongIndex];
+   //actual download button functionality
+   dblink.href=audioElement.src;
+   //re-setting download icon
+   downloadbutton.src="icons/circle-down-solid.svg";
+ 
   // set the song of name text and visibility
   artistname.style.opacity='1';
   artistname.innerHTML=artistName[currentArtistIndex];
@@ -362,6 +368,8 @@ document.getElementById('changeimage').src=imageSrc[currentImageSrcIndex];
 changeimgop.style.opacity="1";
 
 audioElement.play();
+ //Audio context has to be resumed for safari and chrome manually 
+ context.resume();
 }
 
 // function to play the previous song
