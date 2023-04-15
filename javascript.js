@@ -317,7 +317,7 @@ const imageSrc=[
   "img/hey shivaya.jpg",
   "img/Jharneswarbhole.jpg",
   "img/kedarnath.jpg",
-  "img/merabholahaibhandari.jpg",
+  "img/shankar nath re.jpg",
   "img/om namah shivaya.jpg",
   "img/shambhu nath-agam aggarwal.jpg",   
   "img/shivtubholahai.jpg",
