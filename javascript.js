@@ -893,7 +893,7 @@ downloadbutton.addEventListener('click',function(){
 //here we set the current time and max duration functionality
 const currentTimeElement = document.querySelector(".current-time");
 const maxDurationElement = document.querySelector(".max-duration");
-const dashElement=document.querrySelector(".justadash");
+const dashElement=document.querySelector(".justadash");
 audioElement.addEventListener("timeupdate", function() {
   const currentTime = formatTime(audioElement.currentTime);
   const duration = formatTime(audioElement.duration);
