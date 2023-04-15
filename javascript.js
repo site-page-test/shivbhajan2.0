@@ -921,7 +921,7 @@ function formatTime(seconds) {
 
 
 
-const musicPlayer = document.getElementsByClassName('bottom')[0];
+const musicPlayer = document.getElementById("bottom");
 
 window.addEventListener('resize', () => {
   if (document.activeElement.tagName === 'input') {
