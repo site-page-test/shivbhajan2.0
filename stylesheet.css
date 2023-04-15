@@ -296,8 +296,8 @@ input[type="range"]:focus::-moz-range-thumb{
   outline-offset: 0.125rem;
 }
 
-/* SCROLLBAR */
-/* Let's get this party started */
+/* Custom SCROLLBAR */
+/* 
 ::-webkit-scrollbar {
   width: 9px;
 }
@@ -675,12 +675,13 @@ margin-top: 0.2%;
   width: 40%;
 
   }
-  #search-area{
-    background-color: #000;
-    border:none;
-     outline: none;
-  }
-
+  
+#search-area{
+  background-color: #000;
+  position: absolute;
+  top:25%;
+  left:1% ;
+}
     }
   
     
