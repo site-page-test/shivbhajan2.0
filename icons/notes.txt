@@ -1,0 +1,84 @@
+https://onlinegiftools.com/change-gif-loop-count
+
+animated gif are best they are by default in png format.
+
+best site for free svg https://www.svgrepo.com/
+
+
+ "Song-Rom Rom mai bas ja bhole",
+  "Song-Shiv Tandav Stotram",
+  "Song-Jaikal Mahakal",
+  "Song-Bhole hath sab tere",
+  "Song-Bhole Baba Pahado ke Raja",
+  "Song-Bhala",
+  "Song-Bhola Ji",
+  "Song-Bhole Baba",
+  "Song-Hey Shivaya Shankaraya",
+  "Song-Jharneshwar Bhole",
+  "Song-Kedarnath",
+  "Song-Mera Bhola hai Bhandari",
+  "Song-Om Namah Shivay",
+  "Song-Shambhu Nath",
+  "Song-Shiv Tu Bhola Hai",
+  "Song-Mere Bhole",
+  "Song-Bhola mera damru baja ke chala",
+  "Song-Bhola Sabko Deta Hai",
+  "Song-Bholenath Ji",
+  "Song-Chaanda Jhaanke",
+  "Song-Devbhoomi geet",
+  "Song-Jai kara",
+  "Song-Main shiv ka",
+  //repeated "Song-Mera Bhola Hai Bhandari",
+  "Song-Parvati Boli Shankar Se",
+  "Song-Sarwasva Shiv",
+  "Song-Shambhu Mere Sang Rhena",
+  "Song-Shiv Hai Na",
+  "Song-Shiv Panchakshar",
+  "Song-Shiv Shiv Shankara",
+  "Song-Bhole Shankar"
+
+
+
+<img id="1" src="img/romrommaibasjabhole.jpg" alt="" name="Rom Rom mai bas ja bhole">
+ <img id="2" src="img/shivtandavsatotram.jpg" alt="" name=" Shiv Tandav Stotram">
+ <img id="3" src="img/jaikal mahakal.jpg" alt="" name="jaikal mahakal">
+ <img id="4" src="img/bholehathsabtere.jpg" alt="" name="bhole hath sab tere">
+ <img id="5" src="img/bholebabapahadokeraja.jpg" alt="" name="bhole baba pahado ke raja">
+ <img id="6" src="img/bhala.jpg" alt="" name="bhala" name="bhala">
+ <img id="7" src="img/bhola ji.jpg" alt="" name="bhola ji">
+ <img id="8" src="img/bholebaba-ron likhari.jpg" alt="" name="bhole baba by ron likhari">
+ <img id="9" src="img/hey shivaya.jpg" alt="" name="Hey Shivaya Shankaraya">
+ <img id="10" src="img/Jharneswarbhole.jpg" name="Jharneshwar Bhole" >
+ <img id="11" src="img/kedarnath.jpg" alt="" name="kedarnath">
+ <img id="12" src="img/merabholahaibhandari.jpg" name="Mera Bhola hai Bhandari">
+ <img id="13" src="img/om namah shivaya.jpg" alt="" name="Om Namah Shivay">
+ <img id="14" src="img/shambhu nath-agam aggarwal.jpg" alt="" name="shambhu nath">
+ <img id="15" src="img/shivtubholahai.jpg" alt="" name="Shiv Tu Bhola Hai">
+ <img id="16" src="img/mere bhole.jpg" alt="" name="mere bhole">     //isthere
+ <img id="17" src="img/bhola mera damru baja ke chala.jpg" alt="" name="bhola mera damru baja ke chala">
+ 
+<img id="18" src="img/mera bhola hai bhandari.jpg" alt="" name="mera bhola hai bhandari">//it should be after kedarnath according to img src.
+
+
+ <img id="19" src="img/bhola sabko deta hai.jpg" alt="" name="bhola sabko deta hai">
+ <img id="20" src="img/Bholenath ji.jpg" alt="" name="Bholenath ji">
+ <img id="21" src="img/chanda jhake.jpg" alt="" name="chanda jhake">
+ <img id="22" src="img/devbhoomi.jpg" alt="" name="devbhoomi">
+ <img id="23" src="img/jai kara.jpg" alt="" name="jai kara">
+ <img id="24" src="img/main shiv ka.jpg" alt="" name="main shiv ka">
+
+//in image src this came again bhola hai bhandari song
+ <img id="25" src="img/parvati boli shankar se.jpg" alt="" name="parvati boli shankar se">
+ <img id="26" src="img/Sarwasva Shiv.jpg" alt=""name="Sarwasva Shiv">
+ <img id="27" src="img/shambhu mere sang rhena.jpg" alt="" name="shambhu mere sang rhena">
+ <img id="28" src="img/shiv hai na.jpg" alt="" name="shiv hai na" >
+ <img id="29" src="img/shiv panchakshar.jpg" alt="" name="shiv panchakshar">
+ <img id="30" src="img/shiv shiv shankara.jpg" alt="" name="shiv shiv shankara">
+ <img id="31" src="img/Bhole Shankar.jpg" alt="" name="Bhole Shankar">
+
+//in song src it is after kedarnath
+//after mai shiv ka song it is repeated again 
+
+no its two different songs 
+num 12 is bhole nath at ending
+num 24 is full original one
