@@ -912,3 +912,25 @@ function formatTime(seconds) {
 
   return `${minutes}:${formattedSeconds}`;
 }
+
+//While live testing it was observed that keyboard on Android was causing bottom elements to push up and get squeezed. 
+//So we add event listener for that case and disappear the bottom when keyboard resize the window.
+
+
+const musicPlayer = document.getElementById('bottom');
+
+window.addEventListener('resize', () => {
+  if (document.activeElement.tagName === 'input') {
+    musicPlayer.style.display='none';
+  } else {
+    musicPlayer.style.display='block';
+  }
+});
+
+
+
+
+
+
+
+
