@@ -925,7 +925,7 @@ const musicPlayer = document.getElementById("bottom");
 
 window.addEventListener('resize', () => {
   if (document.activeElement.tagName === 'input') {
-    musicPlayer..style.removeProperty("position")
+    musicPlayer.style.removeProperty("position")
   } else {
     musicPlayer.style.position='fixed';
   }
