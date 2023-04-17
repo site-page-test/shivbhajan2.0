@@ -469,7 +469,7 @@ audioElement.addEventListener('ended', function() {
   if (repeatMode === 2) {
     currentSongIndex = (currentSongIndex + 1) % songList.length;
       currentArtistIndex=(currentArtistIndex+1)% artistName.length;
-      currentImageSrcIndex=(currentImageSrcIndex+1)% ImageSrc.length;
+      currentImageSrcIndex=(currentImageSrcIndex+1)% imageSrc.length;
       currentSongNameIndex=(currentSongNameIndex+1)% songName.length;
       
     audioElement.src = songList[currentSongIndex];
