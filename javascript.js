@@ -239,7 +239,7 @@ const songList = [
 'songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3'
 ]
 const artistName=[
-    "by-Tanu Rawat, Shree RK, Akki Aryan"
+    "by-Tanu Rawat, Shree RK, Akki Aryan",
   "by-Gajendra Pratap Singh",  
 "by-Aalok Shrivasta", 
 "by- Amit Trivedi",
