@@ -204,6 +204,7 @@ window.addEventListener('resize', () => {
 // attribute of the audio element with the source URL of the previous or next song in your song list array.
 // define an array of song URLs
 const songList = [  
+    'songs/Damru_Tere_Naam_Ka_Full_Video_T_(getmp3.pro) (1).mp3',
 'songs/Rom_Rom_Me_(getmp3.pro).mp3',
 'songs/Shiva_Tandav_Transcreation_l_Ashuto_(getmp3.pro).mp3',
 'songs/Jaikal_Mahakal_-_Lyric_(getmp3.pro).mp3',
@@ -239,6 +240,7 @@ const songList = [
 'songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3'
 ];
 const artistName=[
+    "by-Tanu Rawat, Shree RK, Akki Aryan"
   "by-Gajendra Pratap Singh",  
 "by-Aalok Shrivasta", 
 "by- Amit Trivedi",
@@ -272,6 +274,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Damru tere naam ka",
   "Song-Rom Rom mai bas ja bhole",
   "Song-Shiv Tandav Stotram",
   "Song-Jaikal Mahakal",
@@ -305,7 +308,7 @@ const songName =[
   "Song-Bhole Shankar"
 ]
 const imageSrc=[ 
-
+"img/damru tere naam ka.jpg",
   "img/romrommaibasjabhole.jpg",    
   "img/shivtandavsatotram.jpg",
   "img/jaikal mahakal.jpg",
