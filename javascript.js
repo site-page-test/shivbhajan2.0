@@ -221,7 +221,6 @@ const songList = [
 'songs/Agam_-_Om_Namah_Shivay_Har_Har_bh_(getmp3.pro).mp3',
 'songs/Agam_-_Shambhu_Nath_Mukesh_Pardes_(getmp3.pro).mp3',
 'songs/Shiv_Tu_Bhola_Hai_(getmp3.pro).mp3',
-
 'songs/Agam_-_Mere_Bhole_Shiv_Bhajan_M_(getmp3.pro).mp3',
 'songs/Bhola_Mera_Damru_Baja_Ke_Chala_Fu_(getmp3.pro).mp3',
 'songs/BHOLA_SABKO_DETA_HAI__(getmp3.pro).mp3',
@@ -238,7 +237,7 @@ const songList = [
 'songs/Shiv_Panchakshar_Stotra__(getmp3.pro).mp3',
 'songs/Shiv_Shiv_Shankara_official_video__(getmp3.pro).mp3',
 'songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3'
-];
+]
 const artistName=[
     "by-Tanu Rawat, Shree RK, Akki Aryan"
   "by-Gajendra Pratap Singh",  
