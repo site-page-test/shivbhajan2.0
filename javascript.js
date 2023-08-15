@@ -316,6 +316,9 @@ const songName =[
   "Song-Bhole Shankar"
 ]
 const imageSrc=[ 
+    "img/shivkadas.jpg",
+    "img/devokedev.jpg",
+    "img/damruterenaamkaslowed.jpg",
 "img/damru tere naam ka.jpg",
   "img/romrommaibasjabhole.jpg",    
   "img/shivtandavsatotram.jpg",
