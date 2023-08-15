@@ -204,9 +204,9 @@ window.addEventListener('resize', () => {
 // attribute of the audio element with the source URL of the previous or next song in your song list array.
 // define an array of song URLs
 const songList = [  
-    'songs/shivkadas.mp3'
-    'songs/Devon Ke Dev Mahadev [Slowed + Reverb] - Akki Kalyan _ Lofi Songs _ Slowed And Reverb _ Lofi Vibes.mp3'
-    'songs/DAMRU TERE NAAM KA BABA ❗Lofi Remix Song ❗ Slowed Reverb  NEW+LOFI+SONG❗LO-FI VIBES ❗Bhole Bhajan.mp3'
+    'songs/shivkadas.mp3',
+    'songs/Devon Ke Dev Mahadev [Slowed + Reverb] - Akki Kalyan _ Lofi Songs _ Slowed And Reverb _ Lofi Vibes.mp3',
+    'songs/DAMRU TERE NAAM KA BABA ❗Lofi Remix Song ❗ Slowed Reverb  NEW+LOFI+SONG❗LO-FI VIBES ❗Bhole Bhajan.mp3',
     'songs/Damru_Tere_Naam_Ka_Full_Video_T_(getmp3.pro) (1).mp3',
 'songs/Rom_Rom_Me_(getmp3.pro).mp3',
 'songs/Shiva_Tandav_Transcreation_l_Ashuto_(getmp3.pro).mp3',
@@ -242,6 +242,9 @@ const songList = [
 'songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3'
 ]
 const artistName=[
+    "by-Gajendra Pratap Singh and Ravindra Pratap Singh",
+    "by-Akki Kalyan",
+"by-yk lofi official 22",
     "by-Tanu Rawat, Shree RK, Akki Aryan",
   "by-Gajendra Pratap Singh",  
 "by-Aalok Shrivasta", 
