@@ -243,7 +243,7 @@ const songList = [
 ]
 const artistName=[
     "by-Gajendra Pratap Singh and Ravindra Pratap Singh",
-    "by-Akki Kalyan",
+    "by-Akki Kalyan(remake by lofi-vibes YouTube channel)",
 "by-yk lofi official 22",
     "by-Tanu Rawat, Shree RK, Akki Aryan",
   "by-Gajendra Pratap Singh",  
