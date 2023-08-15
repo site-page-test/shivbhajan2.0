@@ -279,6 +279,9 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Shiv ka das",
+    "Song-Devo ke dev",
+    "Song-Damru tere naam ka(slowed+reverb)",
     "Song-Damru tere naam ka",
   "Song-Rom Rom mai bas ja bhole",
   "Song-Shiv Tandav Stotram",
