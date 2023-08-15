@@ -204,6 +204,9 @@ window.addEventListener('resize', () => {
 // attribute of the audio element with the source URL of the previous or next song in your song list array.
 // define an array of song URLs
 const songList = [  
+    'songs'/Shiv Ka Das _ मन के बहकावे में ना आ _ Gajendra Pratap Singh _ Nikhar Juneja _ Ravindra Pratap Singh.mp3'
+    'songs/Devon Ke Dev Mahadev [Slowed + Reverb] - Akki Kalyan _ Lofi Songs _ Slowed And Reverb _ Lofi Vibes.mp3'
+    'songs/DAMRU TERE NAAM KA BABA ❗Lofi Remix Song ❗ Slowed Reverb  NEW+LOFI+SONG❗LO-FI VIBES ❗Bhole Bhajan.mp3'
     'songs/Damru_Tere_Naam_Ka_Full_Video_T_(getmp3.pro) (1).mp3',
 'songs/Rom_Rom_Me_(getmp3.pro).mp3',
 'songs/Shiva_Tandav_Transcreation_l_Ashuto_(getmp3.pro).mp3',
