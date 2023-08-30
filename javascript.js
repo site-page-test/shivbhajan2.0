@@ -204,6 +204,7 @@ window.addEventListener('resize', () => {
 // attribute of the audio element with the source URL of the previous or next song in your song list array.
 // define an array of song URLs
 const songList = [  
+    'songs/kankanmaishankar.mp3',
     'songs/bholenathkiwajahse.mp3',
     'songs/shivkadas.mp3',
     'songs/Devon Ke Dev Mahadev [Slowed + Reverb] - Akki Kalyan _ Lofi Songs _ Slowed And Reverb _ Lofi Vibes.mp3',
@@ -243,6 +244,7 @@ const songList = [
 'songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3'
 ]
 const artistName=[
+    "by-Paddy Shivoham",
     "by-Akki kalyan",
     "by-Gajendra Pratap Singh and Ravindra Pratap Singh",
     "by-Akki Kalyan(remake by lofi-vibes YouTube channel)",
@@ -281,6 +283,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Kan Kan Mai Shankar",
     "Song-bholenath ki wajah se",
     "Song-Shiv ka das",
     "Song-Devo ke dev",
@@ -319,6 +322,7 @@ const songName =[
   "Song-Bhole Shankar"
 ]
 const imageSrc=[ 
+    "img/kankanmaishankar.jpg",
     "img/bholenathkiwajahse.jpg",
     "img/shivkadas.jpg",
     "img/devokedev.jpg",
