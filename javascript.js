@@ -325,7 +325,7 @@ const songName =[
   "Song-Bhole Shankar"
 ]
 const imageSrc=[ 
-    "meramalikhaishivaay.jpg",
+    "img/meramalikhaishivaay.jpg",
     "img/kankanmaishankar.jpg",
     "img/bholenathkiwajahse.jpg",
     "img/shivkadas.jpg",
