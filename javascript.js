@@ -203,7 +203,8 @@ window.addEventListener('resize', () => {
 // implement previous and forward song selection by adding click event listeners to the backward and forward track icons. In the event listener function, you can update the src 
 // attribute of the audio element with the source URL of the previous or next song in your song list array.
 // define an array of song URLs
-const songList = [  
+const songList = [ 
+    'songs/Mera Maalik Hai Shivaay full Song Official Video (Mera Bholenath) __ Krishna Chaturvedi , Pankaj VRK.mp3",
     'songs/kankanmaishankar.mp3',
     'songs/bholenathkiwajahse.mp3',
     'songs/shivkadas.mp3',
@@ -244,6 +245,7 @@ const songList = [
 'songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3'
 ]
 const artistName=[
+    "by-Krishna Chaturvedi , Pankaj VRK",
     "by-Paddy Shivoham",
     "by-Akki kalyan",
     "by-Gajendra Pratap Singh and Ravindra Pratap Singh",
@@ -283,6 +285,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Mera Maalik Hai Shivaay",
     "Song-Kan Kan Mai Shankar",
     "Song-bholenath ki wajah se",
     "Song-Shiv ka das",
@@ -322,6 +325,7 @@ const songName =[
   "Song-Bhole Shankar"
 ]
 const imageSrc=[ 
+    "meramalikhaishivaay.jpg",
     "img/kankanmaishankar.jpg",
     "img/bholenathkiwajahse.jpg",
     "img/shivkadas.jpg",
