@@ -204,7 +204,7 @@ window.addEventListener('resize', () => {
 // attribute of the audio element with the source URL of the previous or next song in your song list array.
 // define an array of song URLs
 const songList = [ 
-    'songs/Mera Maalik Hai Shivaay full Song Official Video (Mera Bholenath) __ Krishna Chaturvedi , Pankaj VRK.mp3",
+    'songs/Mera Maalik Hai Shivaay.mp3',
     'songs/kankanmaishankar.mp3',
     'songs/bholenathkiwajahse.mp3',
     'songs/shivkadas.mp3',
