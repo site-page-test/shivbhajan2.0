@@ -203,7 +203,11 @@ window.addEventListener('resize', () => {
 // implement previous and forward song selection by adding click event listeners to the backward and forward track icons. In the event listener function, you can update the src 
 // attribute of the audio element with the source URL of the previous or next song in your song list array.
 // define an array of song URLs
+// 'songs/.mp3',
 const songList = [ 
+    'songs/kailash ke raja.mp3',
+     'songs/mere bhole mere shiva.mp3',
+    'songs/mere bhole shambhu mere kedara.mp3',
     'songs/Mera Maalik Hai Shivaay.mp3',
     'songs/kankanmaishankar.mp3',
     'songs/bholenathkiwajahse.mp3',
@@ -244,7 +248,11 @@ const songList = [
 'songs/Shiv_Shiv_Shankara_official_video__(getmp3.pro).mp3',
 'songs/Bhole_Shankar_Official_Video__(getmp3.pro).mp3'
 ]
+// "by- ",
 const artistName=[
+    "by-Indo Fuzon", 
+    "by-Gaurav Chati, Sangita Singhh, Sugat Dhanvijay",
+    "by- Gajendra Pratap Singh",
     "by-Krishna Chaturvedi , Pankaj VRK",
     "by-Paddy Shivoham",
     "by-Akki kalyan",
@@ -285,6 +293,9 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+     "Song-Kailash Ke Raja",
+     'Song-Mere Bhole Mere Shiva",
+    "Song-Mere Bhole Shambhu Mere Kedara",
     "Song-Mera Maalik Hai Shivaay",
     "Song-Kan Kan Mai Shankar",
     "Song-bholenath ki wajah se",
@@ -324,7 +335,11 @@ const songName =[
   "Song-Shiv Shiv Shankara",
   "Song-Bhole Shankar"
 ]
+// "img/.jpg",
 const imageSrc=[ 
+    "img/kailash ke raja.jpg",
+    "img/mere bhole mere shiva.jpg",
+    "img/mere bhole shambhu mere kedara.jpg",
     "img/meramalikhaishivaay.jpg",
     "img/kankanmaishankar.jpg",
     "img/bholenathkiwajahse.jpg",
