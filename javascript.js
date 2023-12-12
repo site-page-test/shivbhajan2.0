@@ -294,7 +294,7 @@ const artistName=[
 ]
 const songName =[
      "Song-Kailash Ke Raja",
-     'Song-Mere Bhole Mere Shiva",
+     "Song-Mere Bhole Mere Shiva",
     "Song-Mere Bhole Shambhu Mere Kedara",
     "Song-Mera Maalik Hai Shivaay",
     "Song-Kan Kan Mai Shankar",
