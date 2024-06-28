@@ -205,6 +205,7 @@ window.addEventListener('resize', () => {
 // define an array of song URLs
 // 'songs/.mp3',
 const songList = [ 
+    'songs/Mere bhole mere shambhu.mp3',
     'songs/kailash ke raja.mp3',
      'songs/mere bhole mere shiva.mp3',
     'songs/mere bhole shambhu mere kedara.mp3',
@@ -250,6 +251,7 @@ const songList = [
 ]
 // "by- ",
 const artistName=[
+    "by- Muktidan Gadhvi ",
     "by-Indo Fuzon", 
     "by-Gaurav Chati, Sangita Singhh, Sugat Dhanvijay",
     "by- Gajendra Pratap Singh",
@@ -293,6 +295,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Mere Bhole Shambhu",
      "Song-Kailash Ke Raja",
      "Song-Mere Bhole Mere Shiva",
     "Song-Mere Bhole Shambhu Mere Kedara",
@@ -337,6 +340,7 @@ const songName =[
 ]
 // "img/.jpg",
 const imageSrc=[ 
+     "img/Mere bhole mere shambhu.jpg",
     "img/kailash ke raja.jpg",
     "img/mere bhole mere shiva.jpg",
     "img/mere bhole shambhu mere kedara.jpg",
