@@ -584,4 +584,20 @@ for (let i = 0; i < imageElements.length; i++) {
 
 
 
+//favicon related stuff
+const favicon = document.getElementById("favicon");
+
+audioElement.addEventListener("play", function() {
+  favicon.href = "favicon/gif3.gif";
+});
+
+audioElement.addEventListener("pause", function() {
+  favicon.href = "favicon/newfavicon5.png";
+});
+
+audioElement.addEventListener("ended", function() {
+  favicon.href = "favicon/newfavicon5.png";
+});
+
+
 
