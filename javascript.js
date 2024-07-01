@@ -588,7 +588,7 @@ for (let i = 0; i < imageElements.length; i++) {
 const favicon = document.getElementById("favicon");
 
 audioElement.addEventListener("play", function() {
-  favicon.href = "favicon/gif3.gif";
+  favicon.href = "favicon/gif3lowsize.gif";
 });
 
 audioElement.addEventListener("pause", function() {
