@@ -1,0 +1,137 @@
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 999;
+    transition: 0.10s;
+}
+
+.popup {
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(104, 16, 104);
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(238, 39, 221, 0.5);
+    display: none;
+    z-index: 1000;
+    border-radius: 10px;
+}
+#requestSongForm label{
+    color: #fffefe;
+	overflow: visible;
+	position: relative;
+	width: 100%;
+	height: 0;
+    margin: 10px;
+    padding-bottom: 2px;
+}
+#requestSongForm input{
+    margin: 10px;
+}
+#requestSongForm{
+    margin-top: 10%;
+    display:flex ;
+    flex-direction: column;
+   padding: auto;
+}
+#requestSongForm button{
+color: aliceblue;
+border: #fffefe 1px solid;
+margin: 25px;
+padding: 5px;
+border-radius:10px ;
+}
+.popup-content {
+    position: relative;
+}
+
+.pop-close {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    
+}
+
+.rating {
+    direction: rtl; /* This makes the highest value appear first */
+margin-top:20px ;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s;
+    overflow: visible;
+    padding: 5px;
+    position: relative;
+    
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: #ffcc00;
+}
+
+#rateUsForm button{
+    color: aliceblue;
+border: #fffefe 1px solid;
+margin: 25px;
+padding: 5px;
+border-radius:10px ;
+}
+
+#rateUsPopup #closeRateUs{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+}
+
+
+@media(max-width:600px){
+    .popup {
+        color: rgb(255, 255, 255);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgb(104, 16, 104);
+        padding: 20px;
+        box-shadow: 0 0 5px rgba(238, 39, 221, 0.5);
+        display: none;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+
+    .rating label {
+        font-size: 30px;
+        color: #000000;
+        cursor: pointer;
+        transition: color 0.3s;
+        overflow: visible;
+        padding: 1px;
+        position: relative;
+        
+    }
+}
