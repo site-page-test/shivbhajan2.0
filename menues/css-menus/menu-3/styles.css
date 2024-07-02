@@ -173,7 +173,7 @@ body.open .menu a {
     transition: 0.05s;
   }
 .burger{
-  position:absolute;
+  position: sticky;
   top: -10px;
 }
 }
