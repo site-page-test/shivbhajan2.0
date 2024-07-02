@@ -12,6 +12,7 @@ button {
 }
 
 .burger {
+  position:sticky;
   z-index: 114;
   top: 0;
   left: 0;
