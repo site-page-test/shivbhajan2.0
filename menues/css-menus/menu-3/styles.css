@@ -30,7 +30,7 @@ body.open .burger {
 
 .background {
   position: fixed;
-  z-index: 2;
+  z-index: -1;
   top: 44px;
   left: 44px;
   aspect-ratio: 1 / 4;
@@ -44,6 +44,7 @@ body.open .burger {
 }
 
 body.open .background {
+  z-index: 2;
   height: 158vh;
   width: 80vh;
   opacity: 1;
@@ -51,7 +52,7 @@ body.open .background {
 }
 
 .menu {
-  z-index: 3;
+  z-index: -1;
   top: 0;
   left: 0;
   display: flex;
@@ -72,6 +73,7 @@ body.open .background {
 }
 
 body.open .menu {
+z-index: 3;
   opacity: 1;
   visibility: visible;
 }
@@ -139,7 +141,7 @@ body.open .menu a {
 @media(max-width:600px){
   .background {
     position: fixed;
-    z-index: 2;
+  
     top: 44px;
     left: 44px;
     aspect-ratio: 1 / 2;
@@ -158,7 +160,7 @@ body.open .menu a {
     transition: 0.6s;
   }
   .menu {
-    z-index: 3;
+    
     top: 0;
     left: 0;
     display: flex;
