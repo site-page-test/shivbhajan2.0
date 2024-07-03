@@ -205,7 +205,7 @@ window.addEventListener('resize', () => {
 // define an array of song URLs
 // 'songs/.mp3',
 const songList = [ 
-    
+  'songs/shankar teri jata mai.mp3',
  'songs/mahadev aur mai.mp3',
     'songs/Mere bhole mere shambhu.mp3',
     'songs/kailash ke raja.mp3',
@@ -253,6 +253,7 @@ const songList = [
 ]
 // "by- ",
 const artistName=[
+    "by-Narci",
      "by-Narci",
     "by- Muktidan Gadhvi ",
     "by-Indo Fuzon", 
@@ -298,6 +299,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Shankar teri jata mai",
     "Song-Mahadev Aur Main",
     "Song-Mere Bhole Shambhu",
      "Song-Kailash Ke Raja",
@@ -344,7 +346,7 @@ const songName =[
 ]
 // "img/.jpg",
 const imageSrc=[ 
-    
+    "img/shankar teri jata mai.jpg",
 "img/mahadev aur mai.jpg",
      "img/Mere bhole mere shambhu.jpg",
     "img/kailash ke raja.jpg",
