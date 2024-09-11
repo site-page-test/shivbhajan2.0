@@ -205,6 +205,7 @@ window.addEventListener('resize', () => {
 // define an array of song URLs
 // 'songs/.mp3',
 const songList = [ 
+    'songs/Sanso Ki Mala Pe Simru Shiv Ka Naam.mp3',
   'songs/shankar teri jata mai.mp3',
  'songs/mahadev aur mai.mp3',
     'songs/Mere bhole mere shambhu.mp3',
@@ -253,6 +254,7 @@ const songList = [
 ]
 // "by- ",
 const artistName=[
+    "by-Sejal Keshari ",
     "by-Narci",
      "by-Narci",
     "by- Muktidan Gadhvi ",
@@ -299,6 +301,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Sanso Ki Mala Pe Simru Shiv Ka Naam",
     "Song-Shankar teri jata mai",
     "Song-Mahadev Aur Main",
     "Song-Mere Bhole Shambhu",
@@ -346,6 +349,7 @@ const songName =[
 ]
 // "img/.jpg",
 const imageSrc=[ 
+  "img/Sanso Ki Mala Pe Simru Shiv Ka Naam.jpg",
     "img/shankar teri jata mai.jpg",
 "img/mahadev aur mai.jpg",
      "img/Mere bhole mere shambhu.jpg",
