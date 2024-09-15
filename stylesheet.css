@@ -1,0 +1,671 @@
+/* Preloader Fullscreen */
+#preloader {
+margin: 0%;
+padding: 0;
+box-sizing: border-box;
+  border: 10px solid purple;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #020202;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+ 
+}
+
+
+/* Preloader takes full screen */
+
+
+/* Image Container */
+
+/* The image that is being revealed */
+.preload-image {
+  
+ 
+  box-sizing: border-box;
+
+clip-path: inset(0 100% 0 0); /* Initially hidden from the left */
+  animation: revealImage 3s ease forwards; /* Animation to reveal it */
+}
+
+/* Keyframe animation to reveal the image from left to right */
+@keyframes revealImage {
+  0% {
+    clip-path: inset(0 100% 0 0); /* Fully hidden from the left */
+  }
+  100% {
+    clip-path: inset(0 0 0 0); /* Fully revealed */
+  }
+}
+  
+            
+ 
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@font-face {
+    font-family: myFirstFont;
+    src:url('hindifonts/Parvati/Parvati.ttf');
+}
+@font-face{
+    font-family: mysecondfont;
+    src:url('hindifonts/Mangal Regular/Mangal Regular.ttf')
+}
+*{
+    margin:0px;
+}
+
+h1{
+text-align: center;
+background-color:#5f2987;
+margin-top:0%;
+margin:0%;
+color: rgb(243, 217, 243);
+text-align: center;
+text-decoration:solid;
+font-family:'myFirstFont';
+font-size: 200%;
+border-radius: 2px;
+border-color: black;
+border-style: solid;
+border-width:thick;
+word-spacing:2pxpx;
+padding:1%;
+  position:sticky;
+  top:0%;
+z-index:100;
+}
+marquee{
+  background-color: black;
+  color:white;
+  font-family:mysecondfont;
+  margin-top: 0.35%;
+}
+.playlist{
+    margin-top: 6%;
+    font-size: 200%;
+    font-family: 'mysecondfont';
+}
+.heading1{
+    font-size:1.1rem;
+    padding:.5rem 0;
+    text-align:center;
+    text-shadow: 0 .5rem #000;
+    color:rgb(244, 216, 216);
+    background-color: #000;
+}
+
+.container{
+display:flex;
+flex-wrap:wrap;
+background-color: black;
+margin-bottom:5%;
+}
+.container img{
+    width: 20%;
+    height: 20%;
+    margin: 2.5%;
+    cursor: pointer;
+}
+.image-area img{
+  position:fixed;
+    height:72px;
+    width: 8%;
+    bottom:1.3%;
+    z-index:100 ;
+    margin-left: 0.3%;
+    opacity:0;
+}
+.song-details .name{
+  position:fixed;
+  bottom:5.6%;
+  z-index:100;
+  margin-left:10%;
+  opacity:0;
+ color: #fff; 
+}
+.song-details .artist{
+  position:fixed;
+  bottom:2.9%;
+  z-index:100;
+  margin-left:10%;
+  opacity:0;
+  color: #fff;
+  
+}
+.song-timer .current-time{
+  position:fixed;
+  bottom:8%;
+  z-index:100;
+  font-weight:900;
+  margin-left:91.1%;
+  opacity:0;
+  background-color: rgba(146, 0, 255, 0.48); 
+}
+.song-timer .max-duration{
+  position:fixed;
+  font-weight:900;
+  bottom:8%;
+  z-index:100;
+  margin-left:95%;
+  opacity:0;
+  background-color: rgba(146, 0, 255, 0.48); 
+}
+.song-timer .justadash{
+  position:fixed;
+  bottom:7.8%;
+  z-index:100;
+  font-weight:900;
+  font-size:x-large;
+  margin-left:93.8%;
+  opacity:0;
+  
+}
+.bottom {
+    position:fixed;
+    height:90px;
+    background-color: rgba(146, 0, 255, 0.48); 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:hsl(0, 0%, 98%);
+    flex-direction:column;
+    bottom:1px;
+    width: 100%;
+}
+.icons{
+width: 13%;
+margin-top: 0.2%;
+}
+#masterPlay{
+    width: 120%;
+        
+}
+/* imported search bar  */
+/* https://codepen.io/jkantner/pen/eYJboxN */
+/* search bar name=search bar carrot jump  */
+#search-area{
+  background-color: #000;
+  position: absolute;
+  top:28%;
+  left:1% ;
+}
+#no-result-message{
+  text-align: center;
+  margin: 2%;
+  padding-top:10%;
+ 
+}
+:root {
+	--bg: #000000;
+	--fg: rgb(242, 22, 205);
+	--input: #020202;
+	--primary: #a4145c;
+	--dur: 1s;
+  /* this changes font-size of entire document */
+	/* font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1280 - 320)); */
+}
+
+
+body #form input {
+	color: var(--fg);
+	font: 1em/1.5 Hind, sans-serif;
+}
+
+#form,#form input, .caret {
+	margin: auto;
+}
+#form {
+	position: relative;
+	width: 100%;
+	max-width: 17em;
+}
+#form input, .caret {
+	display: block;
+	transition: all calc(var(--dur) * 0.5) linear;
+}
+#form input {
+	background: transparent;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0.25em inset;
+	caret-color:var(--primary);
+	width: 2em;
+	height: 2em;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+#form input:focus, #search-bar input:valid {
+	background: var(--input);
+	border-radius: 0.25em;
+	box-shadow: none;
+	padding: 0.75em 1em;
+	transition-duration: calc(var(--dur) * 0.25);
+	transition-delay: calc(var(--dur) * 0.25);
+	width: 100%;
+	height: 3em;
+}
+#form input:focus {
+	animation: showCaret var(--dur) steps(1);
+	outline: transparent;
+}
+#form input:focus + .caret, #search-bar input:valid + .caret {
+	animation: handleToCaret var(--dur) linear;
+	background: transparent;
+	width: 1px;
+	height: 1.5em;
+	transform: translate(0,-1em) rotate(-180deg) translate(7.5em,-0.25em);
+}
+#form input::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+label {
+	color: #ffffff;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 0;
+}
+.caret {
+	background: purple;
+	border-radius: 0 0 0.125em 0.125em;
+	margin-bottom: -0.6em;
+	width: 0.25em;
+	height: 1em;
+	transform: translate(0,-1em) rotate(-45deg) translate(0,0.875em);
+	transform-origin: 50% 0;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {	
+	:root {
+		--bg: #000000;
+		--fg: #e8dede;
+		--input: #2e3138;
+		--primary: #ccced3;
+	}
+}
+
+/* Animations */
+@keyframes showCaret {
+	from {
+		caret-color: transparent;
+	}
+	to {
+		caret-color: var(--primary);
+	}
+}
+@keyframes handleToCaret {
+	from {
+		background: currentColor;
+		width: 0.25em;
+		height: 1em;
+		transform: translate(0,-1em) rotate(-45deg) translate(0,0.875em);
+	}
+	25% {
+		background: currentColor;
+		width: 0.25em;
+		height: 1em;
+		transform: translate(0,-1em) rotate(-180deg) translate(0,0.875em);
+	}
+	50%, 62.5% {
+		background: var(--primary);
+		width: 1px;
+		height: 1.5em;
+		transform: translate(0,-1em) rotate(-180deg) translate(7.5em,2.5em);
+	}
+	75%, 99% {
+		background: var(--primary);
+		width: 1px;
+		height: 1.5em;
+		transform: translate(0,-1em) rotate(-180deg) translate(7.5em,-0.25em);
+	}
+	87.5% {
+		background: var(--primary);
+		width: 1px;
+		height: 1.5em;
+		transform: translate(0,-1em) rotate(-180deg) translate(7.5em,0.125em);
+	}
+	to {
+		background: transparent;
+		width: 1px;
+		height: 1.5em;
+		transform: translate(0,-1em) rotate(-180deg) translate(7.5em,-0.25em);
+	}
+}
+
+@media(min-width:700px){
+.icons{
+width: 17%;
+margin-top: 0.2%;
+}   
+}
+
+.icons img{
+    cursor: pointer;
+}
+
+    .row {
+        display: flex;
+        align-items: center;
+      }
+      
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+
+    #myprogressbar{
+    width: 90vw;
+      cursor: pointer;
+      margin-top:2% ;
+      
+}
+
+/*********** Baseline, reset styles ***********/
+input[type="range"] {
+  margin-left: 4.6%;
+  margin-bottom: 2%;
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Removes default focus */
+input[type="range"]:focus {
+  outline: none;
+}
+
+/******** Chrome, Safari, Opera and Edge Chromium styles ********/
+/* slider track */
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #fd3ff7;
+  border-radius: 0.5rem;
+  height: 0.2rem;
+}
+
+/* slider thumb */
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -10.4px; /* Centers thumb on the track */
+  background-color: #000000;
+  border-radius: 2.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* input[type="range"]:focus::-webkit-slider-thumb {
+  outline: 3px solid #000000;
+  outline-offset: 0.125rem;
+} */
+input[type="range"]::-webkit-slider-thumb:active {
+  outline: 3px solid #000000;
+  outline-offset: 0.125rem;
+}
+
+/*********** Firefox styles ***********/
+/* slider track */
+input[type="range"]::-moz-range-track {
+  background-color: #fd3ff7;
+  border-radius: 0.5rem;
+  height: 0.2rem;
+}
+
+/* slider thumb */
+input[type="range"]::-moz-range-thumb {
+  background-color: #000000;
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 2.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+input[type="range"]:focus::-moz-range-thumb{
+  outline: 3px solid #000000;
+  outline-offset: 0.125rem;
+}
+
+/* Custom SCROLLBAR */
+/* 
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(0,0,0);
+  border: 4px solid transparent;
+  background-clip: content-box;   /* this is important*/
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255,25,255);
+  border: 1px solid rgb(0,0,0);
+}
+
+canvas {
+  width: 100%;
+  height: 90px;
+  background: #282831;
+  position: fixed;
+  bottom: 0px;
+}
+
+#p1magic{
+  margin:0%;
+  height:0px;
+  
+}
+
+
+@media(max-width:600px){
+  h1{
+        margin:0%;
+        text-align: center;
+        text-decoration:solid;
+        font-family:'myFirstFont';
+        font-size: 200%;
+        color: rgb(243, 217, 243);
+        text-shadow: wheat 10px;
+        border-radius: 2px;
+        border-color: black;
+        border-style: solid;
+        border-width:thick;
+        word-spacing:2pxpx;
+        padding:1%;
+          position:sticky;
+top:0%;
+        }
+       .playlist{
+            margin-top: 6%;
+            font-size: 100%;
+            font-family: 'mysecondfont';
+        }
+        .heading1{
+            font-size:1.9rem;
+            padding:.5rem 0;
+            text-align:center;
+            text-shadow: 0 .2rem #000;
+            color: rgb(244, 216, 216);
+        }
+    
+      
+        
+        
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .container img {
+        
+        float: center;
+    
+    padding: 20px;
+      width: 100%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    
+    .container img {
+        float: center;
+        width: 94%;
+        padding: 10px;
+      margin: 0%;
+      
+    }
+  }
+  .bottom {
+    position:fixed;
+    height:240px;
+    background-color: rgba(146, 0, 255, 0.48); 
+    display: flex;
+    justify-content:center;
+    align-items:bottom;
+    color:hsl(0, 0%, 98%);
+    flex-direction:column;
+    bottom:0px;
+    width: 100%;
+    margin-bottom:0%;
+}
+.icons{
+width: 60%;
+margin-top: 0.2%;
+}
+#masterPlay{
+    width: 120%;
+        
+}
+.icons img{
+    cursor: pointer
+    
+}
+
+    .row {
+        display: flex;
+        align-items: center;
+      }
+      
+      .column {
+        flex: 33.33%;
+        padding: 5px;
+      }
+
+    #myprogressbar{
+    width:100vw;
+      cursor: pointer;
+      border-radius: 0%;
+      margin:0%;
+      margin-bottom:10%;
+    }
+      .image-area img{
+        position:fixed;
+          height:9%;
+          width: 28%;
+          bottom:12.2%;
+          z-index:100 ;
+          margin-left: 2%;
+          opacity:0;
+      }
+
+      .song-details .name{
+        position:fixed;
+        bottom:17%;
+        z-index:100;
+        margin-left:33%;
+        opacity:0;
+      }
+      .song-details .artist{
+        position:fixed;
+        bottom:13.1%;
+        z-index:100;
+        margin-left:33%;
+        opacity:0;
+      }
+      .song-timer .current-time{
+        position:fixed;
+        bottom:22%;
+        z-index:100;
+        margin-left:79%;
+        opacity:0;
+      }
+      .song-timer .max-duration{
+        position:fixed;
+        bottom:22%;
+        z-index:100;
+        margin-left:91%;
+        opacity:0;
+      }
+      .song-timer .justadash{
+        position:fixed;
+        bottom:21.8%;
+        z-index:100;
+        margin-left:88.1%;
+        opacity:0;
+      }
+      #p1magic{
+        margin-bottom:41%;
+        height:37%;
+      }
+      canvas {
+        width: 100%;
+        height: 240px;
+        background: #282831;
+        position: fixed;
+        bottom: 0px;
+      }
+      input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none; /* Override default look */
+        appearance: none;
+        margin-top: -5.9px; /* Centers thumb on the track */
+        background-color: #000000;
+        border-radius: 2.5rem;
+        height: 1rem;
+        width: 1rem;
+      }
+      #preloader video{
+        position:absolute;
+        width: 140px;
+        top: calc(28vh - 75px);
+        left: calc(50vw - 75px);
+      }
+      #preloader #prepara{
+        position:absolute;
+        color:aliceblue;
+        top: calc(50vh - 75px);
+        left: calc(27.3vw - 93px);
+        font-family:myseconfont;
+        font-size:22px;
+        text-align: center;
+      }
+  marquee{
+ 
+  margin-top:1%;
+}
+  .container{
+    margin-bottom:50%;
+  }
+
+  #search-bar{
+  width: 40%;
+
+  }
+  
+#search-area{
+  background-color: #000;
+  position: absolute;
+  top:24%;
+  left:1% ;
+}
+    }
+  
+    
+  
