@@ -205,6 +205,8 @@ window.addEventListener('resize', () => {
 // define an array of song URLs
 // 'songs/.mp3',
 const songList = [ 
+    'songs/Shri Shivashtakam.mp3',
+    'songs/Jap Le Bhole Ka Tu Naam.mp3',
     'songs/Shankar Shiv Bole Umapathi Mahadev.mp3',
     'songs/Jay Jay Kedara.mp3',
     'songs/Mahadeva.mp3',
@@ -257,6 +259,8 @@ const songList = [
 ]
 // "by- ",
 const artistName=[
+    "by-Kanchan Jadhao(Religous India YT channel)",
+    "by-Kishan Bhagat & Sunny Jain",
     "by-Rajan & Sajan Mishra",
     "by-Kailash Kher",
     "by-Agam Aggarwal",
@@ -307,6 +311,8 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song-Shri Shivashtakam",
+    "Song-Jap Le Bhole Ka Tu Naam",
     "Song- Shankar Shiv Bole Umapathi Mahadev",
     "Song-Jay Jay Kedara",
     "Song-Mahadeva",
@@ -358,6 +364,8 @@ const songName =[
 ]
 // "img/.jpg",
 const imageSrc=[
+    "img/Shri Shivashtakam.jpg",
+    "img/Jap Le Bhole Ka Tu Naam.jpg",
     "img/Shankar Shiv Bole Umapathi Mahadev.jpg",
     "img/Jay Jay Kedara.jpg",
     "img/Mahadeva.jpg",
