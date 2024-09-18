@@ -205,6 +205,7 @@ window.addEventListener('resize', () => {
 // define an array of song URLs
 // 'songs/.mp3',
 const songList = [ 
+    'songs/Shankar Shiv Bole Umapathi Mahadev.mp3',
     'songs/Jay Jay Kedara.mp3',
     'songs/Mahadeva.mp3',
     'songs/Sanso Ki Mala Pe Simru Shiv Ka Naam.mp3',
@@ -256,6 +257,7 @@ const songList = [
 ]
 // "by- ",
 const artistName=[
+    "by-Rajan & Sajan Mishra",
     "by-Kailash Kher",
     "by-Agam Aggarwal",
     "by-Sejal Keshari ",
@@ -305,6 +307,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song- Shankar Shiv Bole Umapathi Mahadev",
     "Song-Jay Jay Kedara",
     "Song-Mahadeva",
     "Song-Sanso Ki Mala Pe Simru Shiv Ka Naam",
@@ -355,6 +358,7 @@ const songName =[
 ]
 // "img/.jpg",
 const imageSrc=[
+    "img/Shankar Shiv Bole Umapathi Mahadev.jpg",
     "img/Jay Jay Kedara.jpg",
     "img/Mahadeva.jpg",
   "img/Sanso Ki Mala Pe Simru Shiv Ka Naam.jpg",
