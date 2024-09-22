@@ -614,7 +614,7 @@ for (let i = 0; i < imageElements.length; i++) {
 
 
 
-//favicon related stuff
+/* favicon related stuff
 const favicon = document.getElementById("favicon");
 
 audioElement.addEventListener("play", function() {
@@ -629,5 +629,5 @@ audioElement.addEventListener("ended", function() {
   favicon.href = "favicon/newfavicon5.png";
 });
 
-
+*/
 
