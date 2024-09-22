@@ -205,6 +205,7 @@ window.addEventListener('resize', () => {
 // define an array of song URLs
 // 'songs/.mp3',
 const songList = [ 
+    'songs/Mere Bholenath Ji.mp3',
     'songs/Shri Shivashtakam.mp3',
     'songs/Jap Le Bhole Ka Tu Naam.mp3',
     'songs/Shankar Shiv Bole Umapathi Mahadev.mp3',
@@ -259,6 +260,7 @@ const songList = [
 ]
 // "by- ",
 const artistName=[
+    "by- Krishna Chaturvedi",
     "by-Kanchan Jadhao(Religous India YT channel)",
     "by-Kishan Bhagat & Sunny Jain",
     "by-Rajan & Sajan Mishra",
@@ -311,6 +313,7 @@ const artistName=[
 "by- Hansraj Raghuwanshi"
 ]
 const songName =[
+    "Song- Mere Bholenath Ji",
     "Song-Shri Shivashtakam",
     "Song-Jap Le Bhole Ka Tu Naam",
     "Song- Shankar Shiv Bole Umapathi Mahadev",
@@ -364,6 +367,7 @@ const songName =[
 ]
 // "img/.jpg",
 const imageSrc=[
+    "img/Mere Bholenath Ji.jpg",
     "img/Shri Shivashtakam.jpg",
     "img/Jap Le Bhole Ka Tu Naam.jpg",
     "img/Shankar Shiv Bole Umapathi Mahadev.jpg",
