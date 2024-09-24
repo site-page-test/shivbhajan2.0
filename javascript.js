@@ -602,7 +602,15 @@ for (let i = 0; i < imageElements.length; i++) {
     songname.style.opacity='1';
     artistname.style.opacity='1';
     
+// favicon related stuff
+const favicon = document.getElementById("favicon");
+const title=document.getElementByID("title");
+audioElement.addEventListener("play", function() {
+  favicon.href =imageSrc[i];
+    title.innerHTML=songName[i];
+});
 
+      
     // play the audio
     audioElement.play();
 
@@ -614,13 +622,9 @@ for (let i = 0; i < imageElements.length; i++) {
 
 
 
-/* favicon related stuff
-const favicon = document.getElementById("favicon");
 
-audioElement.addEventListener("play", function() {
-  favicon.href = "favicon/gif3lowsize.gif";
-});
 
+/*
 audioElement.addEventListener("pause", function() {
   favicon.href = "favicon/newfavicon5.png";
 });
@@ -630,4 +634,3 @@ audioElement.addEventListener("ended", function() {
 });
 
 */
-
