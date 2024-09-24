@@ -604,7 +604,7 @@ for (let i = 0; i < imageElements.length; i++) {
     
 // favicon related stuff
 const favicon = document.getElementById("favicon");
-const title=document.getElementByID("title");
+const title=document.getElementById("title");
 audioElement.addEventListener("play", function() {
   favicon.href =imageSrc[i];
     title.innerHTML=songName[i];
