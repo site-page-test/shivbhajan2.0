@@ -606,7 +606,7 @@ for (let i = 0; i < imageElements.length; i++) {
 const favicon = document.getElementById("favicon");
 const title=document.getElementById("title");
 audioElement.addEventListener("play", function() {
-  favicon.href =imageSrc[i];
+ // favicon.href =imageSrc[i];
     title.innerHTML=songName[i];
 });
 
